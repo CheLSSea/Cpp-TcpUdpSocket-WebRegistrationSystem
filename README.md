@@ -1,5 +1,7 @@
 # Cpp-TcpUdpSocket-WebRegistrationSystem
 
+This is a project of 2022Fall EE450 at USC.
+
 a. Running Enviroment: 
 Linux (Mac or Ubuntu 16.04) 
    
