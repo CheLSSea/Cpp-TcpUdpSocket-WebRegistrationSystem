@@ -1,12 +1,9 @@
 # Cpp-TcpUdpSocket-WebRegistrationSystem
 
-a. Full Name: 
-
-b. Student ID: 
-
-c. What I have done: I finished Phase1, Phase2, Phase3, Phase4 and the Extra part.
+a. Running Enviroment: 
+Linux (Mac or Ubuntu 16.04) 
    
-d. My code files and what they do:
+b. My code files and what they do:
 
 1) serverM.cpp
 It creates a TCP server socket to communicate with the TCP client socket in the client. It also creates a UDP client socket to dynamically communicate with each UDP server socket in serverC, serverCS and serverEE.
@@ -33,7 +30,7 @@ It creates a TCP client socket connecting to the serverM.
 
 client can input username and password to login and enter the course code and category to querying for the expected information.
 
-e. The format of all the messages exchanged:
+c. The format of all the messages exchanged:
 1) Login request from client to serverC:
 -- int type = CLIENT_LOGIN_IN_REQUEST;
 -- struct messageLogin{
@@ -65,8 +62,8 @@ For multiple requests:
    char content[120];
 }
 
-g. Any idiosyncrasy of my project: 
+d. Any idiosyncrasy of my project: 
 We can know from my messages exchanged that if the length of the messages exceeds the maximum capacity of the variables, then the sockets could not transmit complete messages.
 
-h. Reused Code: I didn't use code from anywhere.
+e. Reused Code: I didn't use code from anywhere.
  
